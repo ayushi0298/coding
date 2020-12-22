@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.PriorityQueue;
-
+//https://www.interviewbit.com/problems/n-max-pair-combinations/
 public class NMaxPairCombinationsHeaps {
     public static void maxSum(ArrayList<Integer> first, ArrayList<Integer> second) {
         int key= first.size();
