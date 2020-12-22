@@ -3,7 +3,7 @@ package com.company.graphs;
 import javax.crypto.spec.PSource;
 import java.util.ArrayList;
 import java.util.Collections;
-
+//used in DFS
 public class UnionAndFindImplementation {
     ArrayList<Integer> parent;
 
