@@ -3,7 +3,7 @@ package com.company.graphs;
 import javax.crypto.spec.PSource;
 import java.util.ArrayList;
 import java.util.Collections;
-
+//https://www.hackerearth.com/practice/algorithms/graphs/minimum-spanning-tree/tutorial/
 public class MSTKruskal {
     ArrayList<Integer> parent;
     ArrayList<Edge> edgesArraylist;
