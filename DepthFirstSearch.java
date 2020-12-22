@@ -1,12 +1,11 @@
-package com.company;
+package com.company.graphs;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class DepthFirstSearch {
     ArrayList<ArrayList<Integer>> graph;
 
-    boolean visited[];
+
     int vertices, current;
 
     public void graphCreation(int vertices) {
@@ -50,12 +49,7 @@ public class DepthFirstSearch {
         graph.addEdges(2, 4);
         graph.addEdges(2, 5);
         graph.addEdges(3 ,6);
-
         graph.addEdges(3, 7);
-
-
-
-
         graph.DFS(1);
 
 
